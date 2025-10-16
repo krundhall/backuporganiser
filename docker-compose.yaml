@@ -1,0 +1,7 @@
+services:
+  backuporg:
+    build: .
+    container_name: backuporganiser
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
